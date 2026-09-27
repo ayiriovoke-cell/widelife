@@ -1,4 +1,5 @@
 @import url('https://googleapis.com');
+
 * {
     margin: 0;
     padding: 0;
@@ -40,9 +41,6 @@ ul {
     border-bottom: 2px solid white;
 }
 
-
-
-
 .top-section {
     background-image: url("images/background.avif");
     background-position: center;
@@ -77,16 +75,18 @@ button {
     background-color: transparent;
     color: white;
     border: 2px solid white;
+    cursor: pointer;
 }
 #book {
     font-size: 25px;
     text-align: left;
 }
 .middle-section {
-    padding-top:  6rem;
+    padding-top: 6rem;
     background-color: #111111;
+    padding-bottom: 6rem;
 }
-#title {
+.mid-title {
     font-size: 56px;
     letter-spacing: 0.05em;
     font-weight: 950;
@@ -95,64 +95,74 @@ button {
 }
 .text {
     font-size: 46px;
-    font-style: sans-serif, Hervetica;
-    letter-spacing: 0.05em;
-    font-weight: 950;
     margin-bottom: 2rem;
     text-align: center;
-  font-family: 'Montserrat', 'Futura', sans-serif;
-  font-weight: 700; 
-  color: #FCD116; 
-  letter-spacing: -0.02em; 
-
+    font-family: 'Montserrat', 'Futura', sans-serif;
+    font-weight: 700; 
+    color: #FCD116; 
+    letter-spacing: -0.02em; 
 }
-#message {
+.mid-message {
     width: 65rem;
     font-size: 26px;
     word-spacing: 0.05em;
-    margin-bottom: 3rem;
     text-align: center;
-    margin: auto;
-    margin-bottom: 7rem;
+    margin: 0 auto 7rem auto;
 }
 .images {
     display: flex;
     box-sizing: border-box;
-    gap: 6rem;
+    gap: 2rem;
     margin: auto;
     width: 74.8rem;
+    justify-content: center;
 }
-#text {
+.section-heading {
    font-size: 46px;
    letter-spacing: 0.05em;
-   font-weight: 950;
    margin-top: 1rem;
    text-align: center;
    font-family: 'Montserrat', 'Futura', sans-serif;
    font-weight: 700; 
    color: #FCD116; 
    letter-spacing: -0.02em; 
-
 }
 img {
   width: 550px;
   height: 320px;
   border-radius: 1.5rem;
+  object-fit: cover;
 }
 .description { 
-    text-align: center;
-    width: 32vw;
+    text-align: left;
+    width: 100%;
+    max-width: 550px;
+    margin-top: 1rem;
     font-size: 23px;
     margin-bottom: 3rem;
-    margin-left: 20px;
-    margin-top: 1rem;
 }
 
-#description { 
+#descripe { 
     text-align: center;
-    width: 33vw;
+    width: 100%;
+    max-width: 550px;
+    margin-top: 1rem;
     font-size: 23px;
     margin-bottom: 3rem;
-    margin-left: 20px;
-    margin-top: 1rem;
+}
+.second-part {
+    margin-top: 40px;
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+}
+.big-image {
+    width: 1200px;
+    height: 90vh;
+}
+.description-bottom {
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+    font-size: 23px;
 }
