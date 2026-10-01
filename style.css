@@ -1,10 +1,14 @@
 @import url('https://googleapis.com');
 
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 
 body {
     background-color: #333333;
@@ -41,6 +45,10 @@ ul {
     border-bottom: 2px solid white;
 }
 
+
+
+
+
 .top-section {
     background-image: url("images/background.avif");
     background-position: center;
@@ -66,7 +74,7 @@ ul {
     margin-bottom: 3rem;
 }
 
-button {
+#book {
     width: 13.5vw;
     height: 7vh;
     border-radius: 5px;
@@ -76,11 +84,14 @@ button {
     color: white;
     border: 2px solid white;
     cursor: pointer;
-}
-#book {
     font-size: 25px;
     text-align: left;
 }
+
+
+
+
+
 .middle-section {
     padding-top: 6rem;
     background-color: #111111;
@@ -107,13 +118,15 @@ button {
     font-size: 26px;
     word-spacing: 0.05em;
     text-align: center;
-    margin: 0 auto 7rem auto;
+    margin: auto;
 }
 .images {
     display: flex;
     box-sizing: border-box;
     gap: 2rem;
     margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
     width: 74.8rem;
     justify-content: center;
 }
@@ -151,7 +164,7 @@ img {
     margin-bottom: 3rem;
 }
 .second-part {
-    margin-top: 40px;
+    margin-bottom: 4rem;
     margin: auto;
     width: 1200px;
     text-align: center;
@@ -165,4 +178,68 @@ img {
     width: 80%;
     margin: 2rem auto;
     font-size: 23px;
+}
+.long-image {
+    width: 76rem;
+    gap: 5rem;
+    display: flex;
+    margin: auto;
+}
+.figure {
+    gap: 1rem;
+}
+.long-image .description {
+    width: 350px;
+    margin-top: 1rem;
+    margin: auto;
+    margin-left: 15px;
+}
+.long-image .section-heading {
+    width: 350px;
+    margin-bottom: 1rem;
+    font-size: 27px;
+}
+.long-images {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    height: 520px;
+    width: 350px
+}
+
+.mid-title {
+    margin-top: 3rem;
+    font-size: 56px;
+    letter-spacing: 0.05em;
+    font-weight: 950;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#text {
+    width: 55rem;
+    margin: auto;
+    font-size: 26px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', 'Futura', sans-serif;
+    font-weight: 700; 
+    color: #FCD116; 
+    letter-spacing: -0.02em;
+}
+#button {
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    padding: 0;
+    border-radius: 0;
+    display: block;
+    width: 20rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.limited {
+    width: 30rem;
+    font-size: 23px;
+    margin: auto;
 }
